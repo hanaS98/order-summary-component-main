@@ -1,0 +1,165 @@
+/*Start Globel Variables*/
+:root{
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darkBlue: hsl(223, 47%, 23%);
+}
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0;
+  background-color: var(--paleBlue);
+}
+/*Mobile Screen*/
+@media(max-width:375px){
+  .page{
+    background-image: url(images/pattern-background-mobile.svg);
+    width: 375px;
+  }
+  .page .card{
+    width: 320px;
+    height:80%;
+  }
+  .page .card .info{
+    padding: 0 25px;
+  }
+  .page .card .musicBox{
+    width: 240px;
+  }
+  .page .card .musicBox a{
+    margin-left: 38px;
+  }
+  .page .card .payment{
+    width: 240px;
+    margin: 25px;
+  }
+
+}
+/*Mobile Screen*/
+@media(min-width:1440px){
+  .page{
+    background-image: url(images/pattern-background-desktop.svg);
+    width: 1440px;
+  }
+  .page .card{
+    width: 480px;
+    height: 90%;
+  }
+  .page .card .info{
+    padding: 0 70px;
+  }
+  .page .card .musicBox{
+    width: 360px;
+  }
+  .page .card .musicBox a{
+    margin-left: 160px;
+    transition: .3s;
+  }
+  .page .card .musicBox a:hover{
+    color:#BFBAFA;
+    text-decoration: none;
+  }
+  .page .card .payment{
+    width: 360px;
+    margin: 25px 45px;
+    transition: .3s;
+  }
+  .page .card .payment:hover{
+    background-color: #766CF1;
+  }
+  .page .card .cancel:hover{
+    color:var(--darkBlue);
+  }
+
+}
+/*End Globel Variables*/
+.page{
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  position: absolute;
+}
+.page .card{
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 20px;
+}
+.page .card img{
+  width:100%;
+  border-radius: 20px 20px 0 0;
+}
+.page .card h2{
+  color: var(--darkBlue);
+  font-weight: 900;
+  font-size: 23px;
+  margin: 30px 0 20px;
+}
+.page .card .info{
+  margin: 0;
+  line-height: 1.7;
+  color: var(--desaturatedBlue);
+}
+.page .card .musicBox{
+  display: flex;
+  background-color: var(--veryPaleBlue);
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  align-items: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.page .card .musicBox img{
+  width:50px;
+}
+.page .card .musicBox .plan{
+  font-size: 14px;
+  text-align: left;
+  margin-left: 20px;
+}
+.page .card .musicBox .plan p{
+  margin: 5px 0;
+  font-weight: 900;
+  color: var(--darkBlue);
+}
+.page .card .musicBox .plan span{
+  color: var(--desaturatedBlue);
+}
+.page .card .musicBox a{
+  font-size: 13px;
+  font-weight: 700;
+}
+.page .card .payment{
+  background-color: var(--brightBlue);
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 0px hsl(245deg 75% 52% / 40%);
+  cursor: pointer;
+}
+.page .card .cancel{
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--desaturatedBlue);
+  cursor: pointer;
+  transition: .3s;
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

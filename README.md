@@ -23,13 +23,13 @@ Users should be able to:
 
 ### Screenshot
 #### Mobile Screen
-<img src="images/mobile.png>
+<img src="images/mobile.png">
 
 #### Desktop Screen
-<img src="images/desktop.png>
+<img src="images/desktop.png">
 
 #### Desktop Active Screen
-<img src="images/activedesktop.png>
+<img src="images/activedesktop.png">
 
 
 ### Links

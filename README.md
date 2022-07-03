@@ -22,12 +22,19 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
+#### Mobile Screen
+<img src="images/mobile.png>
 
+#### Desktop Screen
+<img src="images/desktop.png>
+
+#### Desktop Active Screen
+<img src="images/activedesktop.png>
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/hanaS98/order-summary-component-main/blob/main/index.html
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process

@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/hanaS98/order-summary-component-main/blob/main/index.html
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [index](https://github.com/hanaS98/order-summary-component-main/blob/main/index.html)
+- Live Site URL: [order-summary-component-main](https://hanas98.github.io/order-summary-component-main/)
 
 ## My process
 
